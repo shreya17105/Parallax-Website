@@ -1,0 +1,204 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .bg_img1{
+            background: url(robert-lukeman-_RBcxo9AU-U-unsplash.jpg) ;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+        }
+        .text{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .para{
+            background-color: black;
+            color: white;
+            font-weight: 900;
+            width: 250px;
+            height: 50px;
+            font-size: 23px;
+            text-align: center;
+            padding: 15px 0 5px 0;
+            box-sizing: border-box;
+            word-spacing: 2px;
+            letter-spacing: 2px;
+        }
+        .bg_img2{
+            background: url(goutham-krishna-h5wvMCdOV3w-unsplash.jpg) ;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+        }
+        .para2 p{
+            background-color: black;
+            color: white;
+            font-weight: 900;
+            width: 50vw;
+            font-size: 23px;
+            text-align: center;
+            padding: 15px 0 5px 0;
+            box-sizing: border-box;
+            word-spacing: 2px;
+            letter-spacing: 2px;
+        }
+        .para2 h2{
+            background-color: white;
+            color: black;
+            font-weight: 900;
+            padding: 15px 0 5px 0;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .bg_img3{
+            background: url(vincent-van-zalinge-vUNQaTtZeOo-unsplash.jpg) ;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+        }
+        .para3{
+            height: fit-content;
+             display: flex;
+            flex-direction: column;
+           justify-content:center;
+       align-items: center;
+       gap: 10px;
+
+        }
+        .para3 p{
+            background-color: black;
+            color: white;
+            font-weight: 900;
+            width: 50vw;
+            font-size: 23px;
+            text-align: center;
+            padding: 15px 0 5px 0;
+            box-sizing: border-box;
+            word-spacing: 2px;
+            letter-spacing: 2px;
+           
+           
+        }
+       
+        .para3 h2{
+            background-color: white;
+            color: black;
+            font-weight: 900;
+            padding: 15px 0 5px 0;
+            box-sizing: border-box;
+            text-align: center;
+            
+        }
+        #id1{
+           background-color: white;
+            color: black;
+            font-weight: 900;
+            padding: 15px 0 5px 0;
+            box-sizing: border-box;
+            text-align: center;
+        }
+       
+        .bg_img4{
+            background: url(justin-kauffman-a8lTjWJJgLA-unsplash.jpg) ;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+        }
+        .para4 p{
+            background-color: black;
+            color: white;
+            font-weight: 900;
+            width: 50vw;
+            height: fit-content;
+            font-size: 23px;
+            text-align: center;
+            padding: 15px 0 5px 0;
+            box-sizing: border-box;
+            word-spacing: 2px;
+            letter-spacing: 2px;
+        }
+        .para4 h2{
+            background-color: white;
+            color: black;
+            font-weight: 900;
+            padding: 15px 0 5px 0;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        
+        @media (max-width:550px)
+        {
+              .bg_img1 ,.bg_img2,.bg_img3,.bg_img4
+              {
+            background-size:contain !important;
+            background-position: center;
+            background-attachment:fixed !important;
+            background-repeat: no-repeat;
+            width: 100vw;
+            height: 100vh;
+             }
+             .text p{
+                width: 70vw;
+                max-height: 20vh;
+                overflow: auto;
+             }
+             .para3{
+                height: fit-content;
+             }
+        }
+        @media  (min-width: 801px)
+        { .bg_img1 ,.bg_img2,.bg_img3,.bg_img4
+            {
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          width: 100vw;
+          height: 100vh;
+           }
+           .text p{
+              width: 60vw;
+              max-height: 20vh;
+              overflow: auto;
+           }
+           .para3{
+            height: fit-content;
+           }
+        }
+        @media (max-width:800px),(width: 600px)
+        {
+            .bg_img1 ,.bg_img2,.bg_img3,.bg_img4
+            {
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          width: 100vw;
+          height: 100vh;
+           }
+           .text p{
+              width: 90vw;
+              max-height: 20vh;
+              overflow: auto;
+           }
+           .para3{
+            height: fit-content;
+           }
+        }
+ 
